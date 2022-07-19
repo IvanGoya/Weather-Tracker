@@ -1,0 +1,91 @@
+body {
+  background-size: cover;
+  background-image: url('../img/f50d8b8482f8c22f42226f1eb270f964.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.temp {
+  font-weight: bold;
+}
+
+.wind {
+  font-weight: bold;
+}
+
+.humidity {
+  font-weight: bold;
+}
+
+.uvi {
+  font-weight: bold;
+}
+
+.max-temp {
+  font-weight: bold;
+}
+
+.min-temp {
+  font-weight: bold;
+}
+
+header {
+  background-color: rgb(21, 147, 201);
+  color: rgb(242, 190, 238);
+  font-size: xx-large;
+}
+
+h4 {
+  padding: 6px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  max-height: 6rem;
+}
+
+.forecast {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  color: black;
+  background-color: rgb(21, 147, 201);
+  border-width: 2px;
+  border-color: black;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: rgb(68, 137, 167);
+  margin-top: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+#current-info {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(21, 147, 201);
+  border-style: solid;
+  border-width: 5px;
+  padding: 12px;
+  border-radius: 5px;
+}
